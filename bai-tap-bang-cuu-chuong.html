@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai-bang-cuu-chuong</title>
+</head>
+<body>
+<script>
+   document.writeln('<h2>Bảng cửu chương</h2>');
+   document.write('<table border="1" >');
+        for ( let hang=1; hang<10; hang++) {
+            document.write('<tr>');
+                for (let cot = 2;cot <10; cot++) {
+                    document.write('<td style="width: 100px">'+ cot + " x " + hang + " = " + hang*cot + '</td>');
+                }
+            document.write('</tr>')
+        }
+   document.write('</table>')
+</script>
+</script>
+</body>
+</html>
